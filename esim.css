@@ -1,0 +1,314 @@
+
+
+.top{
+
+    background:url(./images/background.png);
+ 
+  
+    height: 800px;
+    background-size: cover; 
+
+    .row{
+        margin-left: 60px;
+     
+    }
+    .col-md-9{
+        margin-top: 30px;
+    }
+    .p1{
+        color: white;
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .p2{
+        color: white;
+        font-size: 40px;
+        margin-top: 10px;
+
+    }
+    .p3{
+        color: white;
+        font-size: 17px;
+        text-align: left;
+    }
+     
+    .buttom1{
+        background: white;
+        color: #373464;
+        border-radius: 20px ;
+        padding: 5px 30px;
+        border: none;
+
+    }
+    .col-lg-3{ 
+        display: flex;
+        justify-content: end;
+margin-left: -200px;
+        margin-top: 350px;
+        
+      
+
+
+
+    }
+
+
+@media (max-width: 996px) {
+    .top {
+        height: 1100px;
+    }
+    .row{
+        margin-left: 0px;
+     
+    }
+
+    .p1 {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    .p2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .p3 {
+        font-size: 17px;
+        text-align: left;
+    }
+    .col-md-9 {
+       margin:auto;
+       
+    }
+
+    .col-lg-3 {    
+        margin: auto;
+        margin-top:40px;
+      
+        display: flex;
+        justify-content: center;
+       
+    }
+}}
+.p4{
+    margin-top: 80px;
+    color: #373464;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.p5{
+    margin-top: 20px;
+    color: #373464;
+    font-size: 35px;
+    
+    text-align: center;
+
+}
+.p6{
+    margin-top: 20px;
+    color: #6B6B6B;
+    font-size: 17px;
+  
+    text-align: center;
+}
+.search{
+    .search-container {
+        position: relative;
+        padding: 10px;
+        width: 260px; /* Set the width of the container */
+        display: flex;
+        align-items: center;
+        border: 2px solid #ccc; /* Outer border */
+        border-radius: 4px; /* Rounded corners */
+       
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        background-color: #fff; /* Background color */
+    }
+    
+    .search-icon {
+        color: #999; /* Icon color */
+        font-size: 16px; /* Adjust icon size as needed */
+        margin-right: 10px; /* Space between icon and input */
+    }
+    
+    .search-input {
+        
+        flex: 1; /* Take up remaining space */
+        border: none; /* Remove the default border */
+        outline: none; /* Remove default outline */
+        padding: 5px; /* Adjust padding */
+        box-sizing: border-box; /* Include padding in the element's total width and height */
+    }
+    
+    .search-input::placeholder {
+        color: #999; /* Placeholder text color */
+    }
+    
+    
+    
+    /* Add inner border */
+   
+        
+  .form-select{
+   margin-left: 260px;
+    padding: 15px;
+   width: 260px;
+    border: 2px solid #ccc; /* Outside border */
+    outline: none;
+    background-clip: padding-box; /* Ensures inner border is visible */
+    background-color: #fff; /* Background color */
+    border-radius: 4px; /* Rounded corners if desired */
+   
+    
+
+  }
+
+    }
+    .image1{
+        width: 60%;
+        height: 100px;
+    }
+    .leb{
+        
+            display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        gap: 30px;
+        justify-content: center;
+        width: 100%;
+        border: none !important;
+        p{
+            margin-top: -55px;
+        }
+    }
+    .leb1{
+        height: 175px;
+        line-height: 125px;
+        min-width: 130px;
+    }
+    .buttom2-{text-align: center;
+.buttom2{
+    background:  #373464;
+    color:white;
+    border-radius: 20px ;
+    padding: 5px 30px;
+    border: none;
+    text-align: center;
+    margin: auto;
+
+}}
+.p7{
+    margin-top: 80px;
+    color: #373464;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.p8{
+    margin-top: 20px;
+    color: black;
+    font-size: 35px;
+    
+    text-align: center;
+
+}
+.p9{
+    margin-top: 20px;
+    color: #6B6B6B;
+    font-size: 17px;
+  
+    text-align: center;
+}
+.backgroundphone{
+    width: 100%;
+}
+.buttom3-{text-align: center;
+    .buttom3{
+        background:  #373464;
+        color:white;
+        border-radius: 20px ;
+        padding: 5px 30px;
+        border: none;
+        text-align: center;
+        margin: auto;
+    
+    }}
+    .p10{
+        margin-top: 80px;
+        color: #373464;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .p11{
+        margin-top: 20px;
+        color: black;
+        font-size: 35px;
+        
+        text-align: center;
+    
+    }
+    .p12{
+        margin-top: 20px;
+        color: #6B6B6B;
+        font-size: 17px;
+      
+        text-align: center;
+    }
+    .accordion-flush{
+        text-align: center;
+        width: 65%;
+        margin: auto;
+        background-color: #C4D9E495;
+        color: #226D96;
+        border: none !important;
+ 
+    }
+   
+    .accordion-button {
+        background-color: #C4D9E495 !important;
+        color: #226D96 !important;
+        border-radius: 15px !important;
+        padding: 25px !important;
+
+    }
+    .accordion-item{
+        padding: 10px;
+       
+        border: none !important;
+    }
+    .accordion-button::after {color: #226D96 !important;
+       
+        
+       
+        width: 30px !important;
+            height: 30px !important;
+            font-weight: bold !important; /* Bold */
+            background-size: 30px !important;
+            font-size: 50px !important; /* Adjust the size as needed */
+        
+        
+}
+
+.footer1{
+    background-color: #226D96;
+    color:white;
+   
+   margin-top: 100px;
+    width: 100%;
+    height: 300px;
+  
+}
+
+    .pp{
+        padding-top: 100px;
+     
+        text-align: center;
+        
+    font-size: 50px;}
+
+
+
+
+    
